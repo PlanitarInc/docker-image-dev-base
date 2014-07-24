@@ -1,6 +1,6 @@
 # XXX no versioning of the docker image
 
-.PHONY: build push clean
+.PHONY: build push clean test
 
 build:
 	docker build -t planitar/dev-base .
