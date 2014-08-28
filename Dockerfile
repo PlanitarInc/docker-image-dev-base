@@ -1,6 +1,5 @@
 FROM planitar/base
 
-RUN apt-get update -y
 RUN apt-get install -y build-essential gnupg && apt-get clean
 RUN apt-get install -y pbuilder debhelper cdbs && apt-get clean
 RUN apt-get install -y git mercurial && apt-get clean
