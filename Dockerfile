@@ -1,7 +1,6 @@
 FROM planitar/base
 
 RUN apt-get install -y build-essential gnupg && apt-get clean
-RUN apt-get install -y pbuilder debhelper cdbs && apt-get clean
 RUN apt-get install -y git mercurial bzr && apt-get clean
 RUN apt-get install -y dnsutils tcpdump apache2-utils && apt-get clean
 RUN apt-get install -y realpath && apt-get clean
